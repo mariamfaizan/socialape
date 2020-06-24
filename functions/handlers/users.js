@@ -124,6 +124,10 @@ exports.addUserdetails =(req,res) => {
      });
 };
 
+
+
+
+
 //upload a profile pic for user
 exports.uploadImage = (req,res) =>{
          const BusBoy = require('busboy');
